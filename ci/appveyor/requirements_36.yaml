@@ -12,3 +12,5 @@ dependencies:
   - scipy
   - scikit-learn=0.20
   - pandas=0.23
+  - pip:
+    - cvxpy>=1.0

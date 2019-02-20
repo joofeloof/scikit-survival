@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python=3.7
   - cython>=0.29
-  - cvxopt>=1.1.9
   - numexpr
   - numpy=1.15
   - pytest
@@ -12,3 +11,6 @@ dependencies:
   - scipy
   - scikit-learn=0.20
   - pandas=0.23
+  - pip:
+    - cvxpy>=1.0
+    - cvxopt>=1.1.9
